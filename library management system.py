@@ -21,7 +21,7 @@ currentissuedrecords=[]
 #LOGIN SYSTEM
 
 def password():
-    ps='728db48989c9878bdb727058ae0d0968c5902f488dd9e3d4a4aa3f90410da5566fd0ca5f59c6a58154cce2e5c8e7a2586a79d88397d12c46b830ee50890971eb'
+    ps='' #enter the sha512 hash of your password
     gib=getpass.getpass('Enter your password: ')
     hash = hashlib.sha512(gib.encode('utf8')).hexdigest()
 
