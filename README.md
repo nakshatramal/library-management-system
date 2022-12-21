@@ -14,7 +14,6 @@ A Library Management System is a software built to handle the primary housekeepi
         git clone https://github.com/nakshatra-malhotra/library-management-system.git
 
 2. In the file `librarymanagementsystem.py` enter the SHA512 hash of your password.
-![Preview1](./images/image1.jpg)
 
 2. Run the file `librarymanagementsystem.py`
 
